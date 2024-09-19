@@ -1,0 +1,22 @@
+{
+    "name": "les-petits-plats",
+    "version": "1.0.0",
+    "main": "tailwind.config.js",
+    "scripts": {
+        "watch-css": "npx tailwindcss -i ./src/input-style.css -o ./public/style.css --watch",
+        "lint": "npx eslint src",
+        "lint:fix": "npm run lint -- --fix",
+        "prettier": "npx prettier src --check",
+        "prettier:fix": "npm run prettier -- --write",
+        "format": "npm run prettier:fix && npm run lint:fix"
+    },
+    "author": "",
+    "license": "",
+    "description": "",
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "3.3.3",
+        "tailwindcss": "^3.4.3"
+    }
+}

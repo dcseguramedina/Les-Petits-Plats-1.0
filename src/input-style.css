@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+
+    html,
+    body {
+        @apply max-w-6xl min-w-[548px] mx-auto bg-white text-center text-sm leading-[19.12px] text-black;
+    }
+
+    h1 {
+        @apply font-anton text-[44px] leading-[66.24px] text-center uppercase;
+    }
+
+    h2 {
+        @apply font-anton text-[18px];
+    }
+
+    h3 {
+        @apply font-marope text-xs font-bold leading-[16.39px] text-[#7a7a7a] uppercase;
+    }
+
+    p,
+    li {
+        @apply font-marope text-left;
+    }
+
+    li {
+        @apply font-medium;
+    }
+}
