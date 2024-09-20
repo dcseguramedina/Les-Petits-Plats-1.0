@@ -1,113 +1,5 @@
-*, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
-
-::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
-
 /*
-! tailwindcss v3.4.12 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -554,35 +446,231 @@ video {
   display: none;
 }
 
-body {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  text-align: center;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-\[4\.5\%\] {
+  left: 4.5%;
+}
+
+.top-\[9\%\] {
+  top: 9%;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-4\/5 {
+  height: 80%;
+}
+
+.h-\[665px\] {
+  height: 665px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.text-stone-500 {
+  --tw-text-opacity: 1;
+  color: rgb(120 113 108 / var(--tw-text-opacity));
+}
+
+.text-yellow-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 224 71 / var(--tw-text-opacity));
+}
+
+/* Custom base styles */
+
+/* Custom component styles */
+
+/* Custom utility styles */
+
 html,
-    body {
+body {
   max-width: 1440px;
   min-width: 548px;
   margin: auto;
-  font-family: 'Anton', 'Manrope', sans-serif;
+  font-family: "Anton", "Manrope", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 19.12px;
-  color: #1b1b1b;
-}
-
-header {
-  height: 665px;
-  width: 100%;
-  background-size: cover;
-  background-image: url(../src/assets/images/Bg-image.png);
+  color: #1B1B1B;
 }
 
 h1 {
-  font-family: 'Anton';
+  font-family: "Anton";
   font-size: 44px;
   line-height: 66.24px;
   text-align: center;
@@ -590,7 +678,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Anton';
+  font-family: "Anton";
   font-size: 18px;
 }
 
@@ -599,12 +687,12 @@ h3 {
   font-size: 12px;
   font-weight: 700;
   line-height: 16.39px;
-  color: #7a7a7a;
+  color: #7A7A7A;
   text-transform: uppercase;
 }
 
 p,
-    li {
+li {
   font-family: 'Marope';
   text-align: left;
 }
@@ -614,6 +702,10 @@ li {
 }
 
 /* Header/Searchbar field */
+
+.bg-header-image {
+  background-image: url(../src/assets/images/Bg-image.png);
+}
 
 .search_wrapper {
   display: flex;
@@ -639,20 +731,12 @@ li {
 }
 
 #search_input:focus-visible {
-  outline: transparent;
+  outline: none;
+  border: none;
 }
 
 #search_input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px white inset;
-}
-
-/* Main/Recipes section */
-
-main {
-  width: 100%;
-  height: auto;
-  padding: 20px 80px 20px 80px;
-  background-color: lightgrey;
 }
 
 /* Select section */
@@ -662,16 +746,6 @@ main {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-}
-
-@media only screen and (max-width: 568px) {
-  .select_section {
-    flex-direction: column-reverse;
-  }
-}
-
-#recipes_number {
-  padding: 8px;
 }
 
 .select_container {
@@ -702,24 +776,24 @@ main {
   background-color: #ffffff;
   text-align: left;
   cursor: pointer;
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.12px;
-  color: #1b1b1b;
+  color: #1B1B1B;
 }
 
 .arrow {
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-size: 20px;
   font-weight: 400;
   line-height: 19.12px;
-  color: #1b1b1b;
+  color: #1B1B1B;
   transform: rotate(90deg);
   transition: transform ease-in-out 0.3s;
 }
 
-/** Dropdown search field **/
+/** Dropdown search input **/
 
 .input_container {
   display: flex;
@@ -727,27 +801,31 @@ main {
   align-items: center;
   width: 85%;
   height: 30px;
-  margin-top: 10px;
+  margin-top: 10Px;
   margin: auto;
   padding-right: 2.5px;
-  border: 1px solid #7a7a7a;
-  font-family: 'Manrope';
+  border: 1px solid #7A7A7A;
+  font-family: "Manrope";
   font-size: 14px;
-  color: #7a7a7a;
+  color: #7A7A7A;
 }
 
 .dropdown_input {
   width: 90%;
   padding-left: 5px;
-  border-color: transparent;
 }
 
 .dropdown_input :focus-visible {
-  outline: transparent;
+  outline: none;
+  border: none;
 }
 
 .dropdown_input :-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+.input_conetainer i {
+  color: #7A7A7A;
 }
 
 /** Dropdown Content (Hidden by Default) **/
@@ -761,64 +839,31 @@ main {
   overflow: hidden;
   z-index: 1;
   border-radius: 0 0 10px 10px;
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.12px;
-  color: #1b1b1b;
+  color: #1B1B1B;
 }
 
 /** Options inside the dropdown **/
 
 .dropdown_item {
-  background-color: #ffffff;
-  padding: 12px 16px;
-  text-decoration: none;
   display: block;
+  padding: 12px 16px;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-align: center;
 }
 
 .dropdown_item:hover {
-  background-color: #ffd15b;
+  background-color: #FFD15B
 }
 
 /** Show the dropdown menu **/
 
 .show {
   display: block;
-}
-
-/* Tag section */
-
-.tag_section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.tag {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 35px;
-  padding: 15px;
-  border-radius: 10px;
-  background-color: #ffd15b;
-  font-family: 'Manrope';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16.39px;
-}
-
-.keyword {
-  margin-right: 85px;
-}
-
-.close {
-  padding: 5px;
 }
 
 /* Recipes section */
@@ -857,7 +902,7 @@ main {
   height: 26px;
   padding: 5px 10px;
   border-radius: 10px;
-  background-color: #ffd15b;
+  background-color: #FFD15B;
   font-family: 'Manrope';
   font-weight: 400;
   font-size: 12px;
@@ -890,67 +935,3 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
-.relative {
-  position: relative;
-}
-
-.left-\[4\.5\%\] {
-  left: 4.5%;
-}
-
-.top-\[9\%\] {
-  top: 9%;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-64 {
-  margin-top: 16rem;
-}
-
-.flex {
-  display: flex;
-}
-
-.h-4\/5 {
-  height: 80%;
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.text-stone-500 {
-  --tw-text-opacity: 1;
-  color: rgb(120 113 108 / var(--tw-text-opacity));
-}
-
-.text-yellow-300 {
-  --tw-text-opacity: 1;
-  color: rgb(253 224 71 / var(--tw-text-opacity));
-}
-
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-/* Custom base styles */
-
-/* Custom component styles */
-
-/* Custom utility styles */
