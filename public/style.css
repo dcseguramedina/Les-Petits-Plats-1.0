@@ -610,12 +610,12 @@ video {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
+.justify-start {
+  justify-content: flex-start;
 }
 
-.justify-around {
-  justify-content: space-around;
+.justify-between {
+  justify-content: space-between;
 }
 
 .bg-gray-200 {
@@ -627,8 +627,8 @@ video {
   background-size: cover;
 }
 
-.p-2 {
-  padding: 0.5rem;
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-20 {
@@ -649,6 +649,10 @@ video {
 .text-yellow-300 {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity));
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 /* Custom base styles */
@@ -748,11 +752,18 @@ li {
   width: 100%;
 }
 
+@media screen and (max-width: 640px) {
+  .select_section {
+    flex-direction: column-reverse;
+  }
+}
+
 .select_container {
   display: flex;
   flex-direction: row;
   justify-content: left;
   width: 75%;
+  padding: 2px;
 }
 
 .select_dropdown {
@@ -866,6 +877,36 @@ li {
   display: block;
 }
 
+/* Tag section */
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 35px;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #FFD15B;
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.39px;
+}
+
+.keyword {
+  margin-right: 25px;
+}
+
+.close {
+  padding-bottom: 3px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /* Recipes section */
 
 .recipes_section {
@@ -875,13 +916,14 @@ li {
   width: 100%;
   min-height: auto;
   margin-top: 30px;
+  place-items: center;
 }
 
 .recipe_card {
   display: flex;
   flex-direction: column;
   width: 380px;
-  height: auto;
+  height: 700px;
   border-radius: 21px;
   background-color: #ffffff;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0);
@@ -927,7 +969,7 @@ li {
 }
 
 .description {
-  max-height: 135px;
+  max-height: 80px;
   overflow: hidden;
 }
 
