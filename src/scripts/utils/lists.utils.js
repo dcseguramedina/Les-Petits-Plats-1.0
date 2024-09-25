@@ -3,7 +3,7 @@ import recipes from '../../data/recipes.js'
 // Import recipe data from JSON file and assign it to listOfRecipes
 const listOfRecipes = recipes.recipes
 
-// Extract all unique elements to create arrayscontaining the ingredients, appliances, and utensils used across all recipes
+// Extract all unique elements to create arrays containing the ingredients, appliances, and utensils used across all recipes
 // The use of Set ensures no duplicates
 const uniqueElements = listOfRecipes.reduce(
     (acc, recipe) => {

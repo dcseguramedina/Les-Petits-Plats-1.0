@@ -1,3 +1,5 @@
+import { handleClickOnOptions } from '../components/searchBar.js'
+
 export default function displaySelectDropdowns(selects, listOfOptions) {
     let allSelects = []
 
@@ -31,6 +33,7 @@ export default function displaySelectDropdowns(selects, listOfOptions) {
                 iconElement.textContent = `>`
                 dropdownBtn.appendChild(iconElement)
 
+                // Attach event listeners for click and keydown events on the dropdown
                 dropdownBtn.addEventListener('click', handleDropdownToggle)
                 dropdownBtn.addEventListener('keydown', handleDropdownToggle)
 
@@ -47,7 +50,8 @@ export default function displaySelectDropdowns(selects, listOfOptions) {
                     'aria-label',
                     `Recherche d'un ${select.inputLabel}`
                 )
-
+                // Attach keyup event on the select input
+                // As you fill in the input, any keywords that don't match should disappears
                 dropdownInput.addEventListener('keyup', (e) => {
                     e.preventDefault()
                     filterOptions(e.currentTarget)
@@ -66,6 +70,16 @@ export default function displaySelectDropdowns(selects, listOfOptions) {
                         optionElement.textContent = option
                         optionElement.setAttribute('data-value', option)
                         dropdownContent.appendChild(optionElement)
+
+                        // Attach event listeners for click and keydown events on the options
+                        optionElement.addEventListener(
+                            'click',
+                            handleClickOnOptions
+                        )
+                        optionElement.addEventListener(
+                            'keydown',
+                            handleClickOnOptions
+                        )
                     })
                 }
 
@@ -92,8 +106,10 @@ export default function displaySelectDropdowns(selects, listOfOptions) {
     }
 }
 
+// Handle open/close on select dropdown
 function handleDropdownToggle(e) {
     const key = e.key
+    // Handle keyboard and mouse interactions
     if (key === 'Enter' || key === ' ' || e.type === 'click') {
         e.preventDefault()
         dropdowntoggle(e.currentTarget)
@@ -114,6 +130,7 @@ function dropdowntoggle(currentTarget) {
             : '10px'
 }
 
+// Filter options to show only matching keywords while fillingt the input
 function filterOptions(currentTarget) {
     const selectInputValue = currentTarget.value.toLowerCase()
     const inputContainer = currentTarget.parentElement
@@ -127,5 +144,6 @@ function filterOptions(currentTarget) {
             .toLowerCase()
             .includes(selectInputValue)
         option.style.display = isVisible ? '' : 'none'
+        option.closest('.dropdown_content').style.height = 'auto'
     })
 }
