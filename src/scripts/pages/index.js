@@ -6,7 +6,6 @@ import {
     listOfOptions,
 } from '../utils/lists.utils.js'
 
-//To-do: Load data asynchronously can be better ???
 function displayHomePage() {
     displaySelectDropdowns(listOfSelects, listOfOptions)
     displayRecipeCards(listOfRecipes)

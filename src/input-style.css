@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom base styles */
-@layer base {}
-
-/* Custom component styles */
-@layer components {}
-
-/* Custom utility styles */
-@layer utilities {}
-
 html,
 body {
     max-width: 1440px;
