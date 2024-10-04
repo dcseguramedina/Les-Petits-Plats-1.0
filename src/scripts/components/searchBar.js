@@ -8,26 +8,29 @@ const searchBtn = document.querySelector('[data-search-btn]')
 
 // Add an input event for real-time search with a debounce mechanism
 // Process user input by preventing a “no result” alert message from being sent while the user is still typing
-function debounce(callback, delay){
-    let timer;
-    return function(){
-        let args = arguments;
-        let context = this;
-        clearTimeout(timer);
-        timer = setTimeout(function(){
-            callback.apply(context, args);
+function debounce(callback, delay) {
+    let timer
+    return function () {
+        let args = arguments
+        let context = this
+        clearTimeout(timer)
+        timer = setTimeout(function () {
+            callback.apply(context, args)
         }, delay)
     }
 }
 
-searchInput.addEventListener('input', debounce((e) => {
-    const value = e.target.value.trim().toLowerCase()
-    if (value.length >= 3) {
-        handleSearch(value)
-    } else {
-        clearSearchResults()
-    }
-}, 500))
+searchInput.addEventListener(
+    'input',
+    debounce((e) => {
+        const value = e.target.value.trim().toLowerCase()
+        if (value.length >= 3) {
+            handleSearch(value)
+        } else {
+            clearSearchResults()
+        }
+    }, 500)
+)
 
 // Add keydown event for Enter key press
 searchInput.addEventListener('keydown', (e) => {
@@ -65,7 +68,7 @@ export function handleClickOnOptions(e) {
 
 // HANDLE SEARCH GENERAL //
 
-//  Initialize the results array with all recipes
+// Initialize the results array with all recipes
 let results = [...listOfRecipes]
 
 // Handle earch process when a user enter an input (launch a search)
@@ -94,7 +97,7 @@ function clearSearchResults() {
     updateHomePage(results)
 }
 
-//  Iterate through the recipes and updates the results array
+// Iterate through the recipes and updates the results array
 function launchSearch(value) {
     // Create an empty array to store recipes that match the search criteria
     let newResults = []
